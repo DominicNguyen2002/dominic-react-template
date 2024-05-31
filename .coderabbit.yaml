@@ -9,18 +9,10 @@ reviews:
   path_filters:
     - "!**/.xml"
   path_instructions:
-    - path: "lib/**/*.dart"
-      instructions: |
-        "Review the Dart code. Confirm that:
-        - The docstrings are up-to-date with the implementations. Please highlight the outdated ones.
-        - When an API in a module changes, ensure that all modules that depend on the changed module are updated accordingly.
-        - When seeing a TODO comment, try to write code to complete the todo."
-    - path: "test/**/*"
-      instructions: |
-        "Assess the unit test code employing the Pytest testing framework. Confirm that:
-        - The tests adhere to Pytest's established best practices.
-        - Test descriptions are sufficiently detailed to clarify the purpose of each test.
-        - The tests cover all methods, classes, and errors."
+    - path: "src/**/*.{js,ts}"
+      instructions: "Review the JavaScript/TypeScript code. Confirm that:"
+    - path: "src/**/*.{jsx,tsx}"
+      instructions: "Review the React code. Confirm that:"
   auto_review:
     enabled: true
     ignore_title_keywords:
@@ -29,6 +21,6 @@ reviews:
     base_branches:
       - "develop"
       - "feat/*"
-      - "setup/*"
+      - "main"
 chat:
   auto_reply: true

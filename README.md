@@ -1,8 +1,52 @@
-![banner](resources/images/banner.png)
+<div align="left">
+  
+  <div align="center">
+    <h1>React TypeScript Boilerplate</h1>
 
-# React Boilerplate
-
+  <p>
 Fork this project then start you project with a lot of stuck prepare
+  </p>
+  </div>
+  
+<!-- Badges -->
+
+<br />
+  <div align ="center">
+    <p>
+      <a href="https://github.com/DominicNguyen2002/dominic-react-template/graphs/contributors">
+        <img src="https://img.shields.io/github/contributors/DominicNguyen2002/dominic-react-template" alt="contributors" />
+      </a>
+      <a href="">
+        <img src="https://img.shields.io/github/last-commit/DominicNguyen2002/dominic-react-template" alt="last update" />
+      </a>
+      <a href="https://github.com/DominicNguyen2002/dominic-react-template/network/members">
+        <img src="https://img.shields.io/github/forks/DominicNguyen2002/dominic-react-template" alt="forks" />
+      </a>
+      <a href="https://github.com/DominicNguyen2002/dominic-react-template/stargazers">
+        <img src="https://img.shields.io/github/stars/DominicNguyen2002/dominic-react-template" alt="stars" />
+      </a>
+      <a href="https://github.com/DominicNguyen2002/dominic-react-template/issues/">
+        <img src="https://img.shields.io/github/issues/DominicNguyen2002/dominic-react-template" alt="open issues" />
+      </a>
+      <a href="https://github.com/DominicNguyen2002/dominic-react-template/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/DominicNguyen2002/dominic-react-template.svg" alt="license" />
+      </a>
+    </p>
+  <h4>
+      <a href="https://github.com/DominicNguyen2002/dominic-react-template/">View Demo</a>
+    <span> · </span>
+      <a href="https://github.com/DominicNguyen2002/dominic-react-template">Documentation</a>
+    <span> · </span>
+      <a href="https://github.com/DominicNguyen2002/dominic-react-template/issues/">Report Bug</a>
+    <span> · </span>
+      <a href="https://github.com/DominicNguyen2002/dominic-react-template/issues/">Request Feature</a>
+    </h4>
+  </div>
+  </div>
+<br />
+
+<!-- Table of Contents -->
+#  
 
 Base project made with much: Contains Redis, Elastic, Docker and much more!
 
@@ -59,8 +103,6 @@ Here is the folder structure we have been using in this project
 ```
 
 ## Navigation Stack
-
-![screens](resources/images/screens.png)
 
 ## Wiki
 
